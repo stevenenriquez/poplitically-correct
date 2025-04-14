@@ -88,14 +88,14 @@ header {
     left: 0;
     width: 100%;
     z-index: 1000;
-    padding: 5px 0;
-    background-color: var(--primary);
+    padding: 3px 0;
+    background-color: rgba(34, 114, 255, .75);
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.05);
     transition: var(--transition);
 }
 
 header.scrolled {
-    padding: 10px 0;
+    padding: 5px 0;
 }
 
 .header-content {
