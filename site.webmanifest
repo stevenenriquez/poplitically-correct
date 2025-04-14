@@ -1,0 +1,24 @@
+{
+  "name": "Poplitically Correct",
+  "short_name": "Poplitically",
+  "description": "The podcast where pop culture collides with politics through unfiltered commentary and sharp, quick-witted insights.",
+  "icons": [
+    {
+      "src": "assets/PC Logo_Icon_RGB.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/PC Logo_Icon_RGB.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "theme_color": "#2272FF",
+  "background_color": "#2272FF",
+  "orientation": "portrait"
+} 
