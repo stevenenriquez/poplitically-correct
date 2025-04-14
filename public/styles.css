@@ -89,7 +89,8 @@ header {
     width: 100%;
     z-index: 1000;
     padding: 3px 0;
-    background-color: rgba(34, 114, 255, .75);
+    /* background-color: rgba(34, 114, 255, .85); */
+    background-color: var(--primary);
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.05);
     transition: var(--transition);
 }
@@ -182,7 +183,7 @@ nav a {
 /* Mobile menu styles */
 .mobile-nav {
     position: fixed;
-    top: 60px;
+    top: 40px;
     left: 0;
     width: 100%;
     background-color: var(--primary);
