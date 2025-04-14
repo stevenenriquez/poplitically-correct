@@ -16,23 +16,23 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     // Check for URL with hash coming from another page
-    if (window.location.hash && window.location.pathname.endsWith('index.html')) {
-        setTimeout(function() {
-            const targetId = window.location.hash;
-            const targetElement = document.querySelector(targetId);
+    // if (window.location.hash && window.location.pathname.endsWith('index.html')) {
+    //     setTimeout(function() {
+    //         const targetId = window.location.hash;
+    //         const targetElement = document.querySelector(targetId);
             
-            if (targetElement) {
-                const headerOffset = 10;
-                const elementPosition = targetElement.getBoundingClientRect().top;
-                const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+    //         if (targetElement) {
+    //             const headerOffset = 10;
+    //             const elementPosition = targetElement.getBoundingClientRect().top;
+    //             const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
 
-                window.scrollTo({
-                    top: offsetPosition,
-                    behavior: 'smooth'
-                });
-            }
-        }, 100);
-    }
+    //             window.scrollTo({
+    //                 top: offsetPosition,
+    //                 behavior: 'smooth'
+    //             });
+    //         }
+    //     }, 100);
+    // }
 });
 
 // Close mobile menu when clicking outside
