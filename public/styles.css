@@ -255,7 +255,6 @@ nav a {
 .hero-content {
     display: grid;
     grid-template-columns: 1.2fr 0.8fr;
-    gap: 4rem;
     align-items: center;
     position: relative;
     z-index: 2;
@@ -489,10 +488,10 @@ nav a {
 /* Quote Section */
 .host-quote {
     background: rgba(255, 255, 255, 0.15);
-    margin: 2rem;
-    padding: 2rem 2.5rem;
+    margin: .5rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
     margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
     border-radius: 12px;
     position: relative;
     font-style: italic;
@@ -504,23 +503,25 @@ nav a {
     content: '"';
     position: absolute;
     top: 1rem;
-    left: 1rem;
+    left: .25rem;
     font-size: 6rem;
     color: var(--accent-green);
     font-family: 'League Spartan', sans-serif;
     line-height: 0.6;
+    padding-top: .3rem;
 }
 
 /* Closing quote */
 .host-quote::after {
     content: '"';
     position: absolute;
-    bottom: 1rem;
+    bottom: .25rem;
     right: 1rem;
     font-size: 6rem;
     color: var(--accent-green);
     font-family: 'League Spartan', sans-serif;
     line-height: 0;
+    padding-bottom: .3rem;
 }
 
 .host-quote p.quote-text {
@@ -581,7 +582,7 @@ footer {
     z-index: 2;
     background-color: var(--primary);
     color: var(--white);
-    padding: 5rem 0 2rem;
+    padding: 2rem 0 2rem;
 }
 
 .footer-content {
